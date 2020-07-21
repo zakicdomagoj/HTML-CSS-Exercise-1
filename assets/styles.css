@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+img {
+  width: 30%;
+}
+
+h2 {
+  color: rgb(95, 103, 226);
+  letter-spacing: 0.4rem;
+}
+
+.text {
+  color: gray;
+  line-height: 1.5rem;
+  margin: 2em auto;
+}
+
+.text-price {
+  color: rgb(95, 103, 226);
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.dollar-sign:before {
+  content: "$";
+  font-size: small;
+}
+
+.col {
+  width: 300px;
+  margin: 2em 2em;
+  text-align: center;
+  padding: 2em 2em;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col:hover {
+  background-color: rgb(249, 249, 249);
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
